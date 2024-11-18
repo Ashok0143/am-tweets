@@ -28,4 +28,4 @@ fig = px.bar(airline_counts,
              labels={ 'x' : 'Airline', 'y': 'Number of Tweets'},
              title='Count of Tweets by Airline')
 fig.show()
-st.plotly_chart(fig_bar)
+st.plotly_chart(fig)

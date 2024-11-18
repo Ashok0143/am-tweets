@@ -6,7 +6,7 @@ import plotly.express as px
 import streamlit as st
 
 # Load data
-tweets_url = 'https://raw.githubusercontent.com/Ashok0143/am-tweets/refs/heads/main/Tweets.csv'
+tweets_url = 'Tweets.csv'
 tweets = pd.read_csv(tweets_url)
 
 # Set up Streamlit layout and title
